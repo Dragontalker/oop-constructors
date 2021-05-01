@@ -30,4 +30,8 @@ public class BankAccount {
     public int getAccountNumber() {
         return this.accountNumber;
     }
+
+    public double getBalance() {
+        return this.balance;
+    }
 }
