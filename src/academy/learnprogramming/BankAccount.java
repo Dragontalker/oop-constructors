@@ -55,4 +55,13 @@ public class BankAccount {
             System.out.println("Please enter a positive amount");
         }
     }
+
+    public void withdraw(double amount) {
+        if (amount > 0 && this.balance >= amount) {
+            this.balance -= amount;
+            System.out.println("Withdraw completed! The current balance is $" + this.balance);
+        } else {
+            System.out.println("Insufficient found, please check your balance");
+        }
+    }
 }
