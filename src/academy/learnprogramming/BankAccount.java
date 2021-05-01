@@ -26,4 +26,8 @@ public class BankAccount {
     public void setPhoneNumber(String string) {
         this.phoneNumber = string;
     }
+
+    public int getAccountNumber() {
+        return this.accountNumber;
+    }
 }
