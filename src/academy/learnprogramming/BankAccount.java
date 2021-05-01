@@ -6,4 +6,8 @@ public class BankAccount {
     private String customerName;
     private String email;
     private String phoneNumber;
+
+    public void setAccountNumber(int number) {
+        this.accountNumber = number;
+    }
 }
