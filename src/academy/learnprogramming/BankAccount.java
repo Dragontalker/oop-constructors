@@ -7,6 +7,10 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    public BankAccount() {
+        System.out.println("Empty constructor called");
+    }
+
     public void setAccountNumber(int number) {
         this.accountNumber = number;
     }
