@@ -22,4 +22,8 @@ public class BankAccount {
     public void setEmail(String string) {
         this.email = string;
     }
+
+    public void setPhoneNumber(String string) {
+        this.phoneNumber = string;
+    }
 }
