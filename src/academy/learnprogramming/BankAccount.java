@@ -18,4 +18,8 @@ public class BankAccount {
     public void setCustomerName(String string) {
         this.customerName = string;
     }
+
+    public void setEmail(String string) {
+        this.email = string;
+    }
 }
