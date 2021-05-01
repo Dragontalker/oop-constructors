@@ -1,5 +1,7 @@
 package academy.learnprogramming;
 
+import com.sun.jdi.StringReference;
+
 public class BankAccount {
     private int accountNumber;
     private double balance;
@@ -9,6 +11,20 @@ public class BankAccount {
 
     public BankAccount() {
         System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(
+            int accountNumber,
+            double balance,
+            String customerName,
+            String email,
+            String phoneNumber
+            ) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
     }
 
     public void setAccountNumber(int number) {
