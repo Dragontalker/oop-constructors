@@ -38,4 +38,8 @@ public class BankAccount {
     public String getCustomerName() {
         return this.customerName;
     }
+
+    public String getEmail() {
+        return this.email;
+    }
 }
