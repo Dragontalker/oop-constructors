@@ -42,4 +42,8 @@ public class BankAccount {
     public String getEmail() {
         return this.email;
     }
+
+    public String getPhoneNumber() {
+        return this.phoneNumber;
+    }
 }
