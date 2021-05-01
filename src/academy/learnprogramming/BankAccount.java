@@ -10,7 +10,12 @@ public class BankAccount {
     public void setAccountNumber(int number) {
         this.accountNumber = number;
     }
+
     public void setBalance(double number) {
         this.balance = number;
+    }
+
+    public void setCustomerName(String string) {
+        this.customerName = string;
     }
 }
