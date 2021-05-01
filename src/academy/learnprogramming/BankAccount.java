@@ -46,4 +46,13 @@ public class BankAccount {
     public String getPhoneNumber() {
         return this.phoneNumber;
     }
+
+    public void deposit(double amount) {
+        if (amount > 0) {
+            this.balance += amount;
+            System.out.println("Deposit completed! The current balance is $" + this.balance);
+        } else {
+            System.out.println("Please enter a positive amount");
+        }
+    }
 }
